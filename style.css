@@ -1,0 +1,173 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.header-main
+{
+    background-color:  #1E1E1E;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    /* width: 1028px; */
+    width: 100vw;
+    height: 87px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+
+.left
+{
+    position: relative;
+    left: 38px;
+}
+
+.left a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.right
+{
+    position: relative;
+}
+
+.right .items
+{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    position: relative;
+    left: 846px;
+}
+
+.right a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.right li
+{
+    list-style-type: none;
+}
+
+.middle
+{
+    color: black;
+}
+
+.para
+{
+    position: absolute;
+    width: 791px;
+    height: 651px;
+    left: 38px;
+    top: 140px;
+}
+
+.para h1
+{
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.para-heading
+{
+    height: 144px;
+    width: 600px;
+    left: 38px;
+    top: 140px;
+    border-radius: nullpx;
+}
+
+.para-btn
+{
+    position: absolute;
+    width: 226px;
+    height: 58px;
+    top: 600px;
+    background: #000000;
+    color: #fff;
+    border-radius: 0px;
+}
+
+.middle-img
+{
+    position: absolute;
+    height: 911px;
+    width: 650px;
+    left: 885px;;
+    top: 140px;
+    border-radius: 0px;
+}
+
+.bottom
+{
+    /* box-sizing: border-box; */
+    width: 97vw;
+    height: 1100px;
+    position: absolute;
+    left: 38px;
+    top: 1154px;
+}
+
+.btm-main
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around;
+    align-content: space-around; */
+    gap: 3vw;
+}
+.title
+{
+    /* position: absolute; */
+    height: 94px;
+    width: 600px;
+    left: 50px;
+    top: 1154px;
+    border-radius: nullpx;
+    color: #000000;
+}
+.title h1
+{
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.btm-item
+{
+    height: 447.56927490234375px;
+    width: 30vw;
+    border-radius: 0px;
+}
+
+.btm-item img
+{
+    height:447px;
+    width: 30vw;
+}
+
+
